@@ -1,0 +1,19 @@
+{
+  "name": "map-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "idyll": {
+    "theme": "github",
+    "layout": "blog",
+    "css": "styles.css"
+  },
+  "dependencies": {
+    "d3": "^4.0.0",
+    "idyll": "^3.0.0",
+    "idyll-d3-component": "^2.0.0",
+    "react-map-gl": "^3.3.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}

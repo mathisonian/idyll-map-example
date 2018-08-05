@@ -1,0 +1,50 @@
+[meta title:"Map Example" description:"Short description of your project" /]
+
+[Header
+  title:"Idyll Map Example"
+  subtitle:"How to use Mapbox with Idyll"
+  author:"Matthew Conlen"
+  authorLink:"https://twitter.com/mathisonian" /]
+
+
+This is a test of the [react-map-gl](https://github.com/uber/react-map-gl) component
+using Idyll.
+
+To recreate this example, first create a new idyll post,
+then install the component:
+
+```
+$ npm install --save react-map-gl
+```
+
+Then, include this component in your Idyll markup:
+
+
+
+```
+[ReactMapGL
+  width:400
+  height:400
+  latitude:47.6062
+  longitude:-122.3321
+  zoom:8
+  mapboxApiAccessToken:"..."
+ /]
+```
+
+Note that you must have a (free) Mapbox token to use the component. [Learn more about access tokens](https://www.mapbox.com/help/how-access-tokens-work/). To learn more about using Idyll with components on NPM, see https://idyll-lang.org/docs/components/npm.
+
+*Note - I've hosted this on github pages instead of https://idyll.pub/ because the component uses webworkers, which aren't currently supported on idyll.pub.*
+
+[Fixed]
+
+[ReactMapGL
+  width:400
+  height:400
+  latitude:37.7577
+  longitude:-122.4376
+  zoom:8
+  mapboxApiAccessToken:"pk.eyJ1IjoibWF0aGlzb25pYW4iLCJhIjoiY2l5bTA5aWlnMDAwMDN1cGZ6Y3d4dGl6MSJ9.JZaRAfZOZfAnU2EAuybfsg"
+ /]
+
+[/Fixed]

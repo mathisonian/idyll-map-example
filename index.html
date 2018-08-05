@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+      <title>
+        Map Example
+      </title>
+      <meta property="og:title" content="Map Example">
+    <meta charset="utf-8">
+    <meta property="og:type" content="article">
+
+      <meta property="og:description" content="Short description of your project">
+      <meta property="description" content="Short description of your project">
+
+
+    <link rel="stylesheet" href="static/__idyll_styles.css">
+  </head>
+  <body>
+    <div id="idyll-mount"><div data-reactroot=""><div class="idyll-root"><div style="max-width:600px;margin-top:0;margin-right:0;margin-bottom:0;margin-left:50px" class=" idyll-text-container"><div class="article-header"><h1 class="hed">Idyll Map Example</h1><h2 class="dek">How to use Mapbox with Idyll</h2><div class="byline">By: <a href="https://twitter.com/mathisonian">Matthew Conlen</a></div></div><p>This is a test of the <a href="https://github.com/uber/react-map-gl">react-map-gl</a> component
+using Idyll.</p><p>To recreate this example, first create a new idyll post,
+then install the component:</p><pre><code>$ npm install --save react-map-gl</code></pre><p>Then, include this component in your Idyll markup:</p><pre><code>[ReactMapGL
+  width:400
+  height:400
+  latitude:47.6062
+  longitude:-122.3321
+  zoom:8
+  mapboxApiAccessToken:&quot;...&quot;
+ /]</code></pre><p>Note that you must have a (free) Mapbox token to use the component. <a href="https://www.mapbox.com/help/how-access-tokens-work/">Learn more about access tokens</a><span>. To learn more about using Idyll with components on NPM, see <a href="https://idyll-lang.org/docs/components/npm.">https://idyll-lang.org/docs/components/npm.</a></span></p><p><em>Note - I’ve hosted this on github pages instead of https:<!-- -->/<!-- -->/idyll.pub<!-- -->/ because the component uses webworkers, which aren’t currently supported on idyll.pub.</em>
+
+<div style="position:fixed" class="fixed"><div style="width:400px;height:400px;position:relative;cursor:grab"><div style="width:400px;height:400px;position:relative"><div style="width:400px;height:400px;visibility:visible"></div><div class="overlays" style="position:absolute;left:0;top:0;width:400px;height:400px;overflow:hidden"></div></div></div></div></p></div></div></div></div>
+    <script src="static/__idyll_index.js"></script>
+  </body>
+</html>
